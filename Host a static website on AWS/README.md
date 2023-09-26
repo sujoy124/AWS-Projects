@@ -1,5 +1,5 @@
 Host a static website on AWS
-Hosting a static website on AWS (Amazon Web Services) involves several steps:
+Hosting a static website on AWS (Amazon Web Services) involves several steps. 
 1.	Create an AWS Account:
 If you don't have an AWS account, you'll need to sign up for one. Go to the AWS website (https://aws.amazon.com/) and follow the instructions to create an account.
 2.	Access AWS Management Console:
@@ -31,7 +31,7 @@ In the "Route 53 hosted zones," create a new record set.
 Enter your S3 bucket's endpoint as the alias target.
 
 8.	Testing the Website:
-After DNS propagation (which may take some time), you should be able to access your static website using your custom domain.
+After DNS propagation (which may take some time), test the static website using custom domain.
 
 Optional: 
 
@@ -40,6 +40,8 @@ For secure browsing, consider using AWS Certificate Manager to provision an SSL/
 
 Content Distribution:
 To improve website performance, consider using AWS CloudFront as a content delivery network (CDN) to distribute your website's content globally.
+
 Monitoring and Scaling:
 Set up monitoring, logging, and scaling as needed for your website to ensure it can handle traffic efficiently.
+
 
