@@ -41,6 +41,7 @@ For secure browsing, consider using AWS Certificate Manager to provision an SSL/
 Content Distribution:
 To improve website performance, consider using AWS CloudFront as a content delivery network (CDN) to distribute your website's content globally.
 
+
 Monitoring and Scaling:
 Set up monitoring, logging, and scaling as needed for your website to ensure it can handle traffic efficiently.
 
