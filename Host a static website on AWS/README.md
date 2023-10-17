@@ -7,7 +7,7 @@ Once you have an AWS account, log in to the AWS Management Console. Choose your 
 ![image](https://github.com/sujoy124/AWS-projects/assets/91733661/5fc4740e-f439-47fe-a078-c220935c7223)
 
 ### 3.	Choose a Storage Service:
-AWS offers multiple services for hosting static websites. The most common options are Amazon S3 (Simple Storage Service) and AWS Amplify Console. Here, we'll use Amazon S3.
+AWS offers multiple services for hosting static websites. The most common options are Amazon S3 (Simple Storage Service) which is chosen here.
 ### 4.	Create an S3 Bucket:
 - Go to the AWS S3 service in the AWS Management Console.
 - Click on the "Create bucket" button.
