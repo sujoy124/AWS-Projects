@@ -1,7 +1,7 @@
 ## Host a static website on AWS
 Hosting a static website on AWS (Amazon Web Services) involves several steps. 
 ### 1.	Create an AWS Account:
-Go to the AWS website (https://aws.amazon.com/) and follow the instructions to create an account. It is best practise to create an admin user account using root account and use the admin account should be used throughout which is inline with real-life prod account.
+Go to the AWS website (https://aws.amazon.com/) and follow the instructions to create an account. It is best practise to create an admin user account using root account and use the admin account should be used throughout which is inline with real-life prod account. Also enable MFA for all account.
 ### 2.	Access AWS Management Console:
 Once you have an AWS account, log in to the AWS Management Console.
 ### 3.	Choose a Storage Service:
