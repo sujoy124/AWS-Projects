@@ -10,8 +10,8 @@ The application runs from a browser, gets the user to login using a Google ID an
 
 This consists of 5 stages:-
 
-STAGE 1 : Provision the environment
-STAGE 2 : Create Google API Project & Client ID
-STAGE 3 : Create Cognito Identity Pool
-STAGE 4 : Update App Bucket & Test Application
-STAGE 5 : Cleanup
+- STAGE 1 : Provision the environment
+- STAGE 2 : Create Google API Project & Client ID
+- STAGE 3 : Create Cognito Identity Pool
+- STAGE 4 : Update App Bucket & Test Application
+- STAGE 5 : Cleanup
