@@ -49,4 +49,29 @@ Project setup/architecture is as follows:
 - Locate the distribution domain name. Note down as the WebApp URL this name prefixed with https i.e if yours is d1o4f0w1ew0exo.cloudfront.net then your WebApp URL is https://https://d1o4f0w1ew0exo.cloudfront.net (note, the copy icon may copy the https:// for you)
 ![image](https://github.com/sujoy124/AWS-projects/assets/91733661/2cfe09b7-aa15-44e6-92a9-bf6af59e61f1)
 
+## STAGE 2 : Create Google API Project & Client ID
+
+Any application that uses OAuth 2.0 to access Google APIs must have authorization credentials that identify the application to Google's OAuth 2.0 server
+You will need a valid google login, GMAIL will do. If you don't have one, you will need to create one as part of this process.
+- Move to the Google Credentials page https://console.developers.google.com/apis/credentials
+- Either sign in, or create a google account. You will be moved to the Google API Console
+- Click the Select a project dropdown, and then click NEW PROJECT.  For project name enter PetIDF and Click Create
+- Next Click CONFIGURE CONSENT SCREEN. because our application will be usable by any google user, we have to select external users
+- Check the box next to External and click CREATE
+- Next give the application a name .enter PetIDF in the App Name box.
+- enter your own email in user support email, enter your own email in Developer contact information
+- Click SAVE AND CONTINUE for the next 2/3 screens and in the final screen Click BACK TO DASHBOARD.
+- Click Credentials on the menu on the left
+- Click CREATE CREDENTIALS and then OAuth client ID
+- In the Application type download select Web Application
+- Under Name enter PetIDFServerlessApp
+- We need to add the WebApp URL, this is the distribution domain name of the cloudfront distribution (making sure it has https:// before it)
+- Click ADD URI under Authorized JavaScript origins
+- Enter the endpoint URL, you need to enter the Distribution DNS Name of your CloudFront distribution (created by the 1-click deployment), you should add https:// at the start, it should look something like this https://d38sv1tnkmk8i6.cloudfront.net but you NEED to use your own distributions DNS name DONT USE THIS ONE
+- Click CREATE.
+![image](https://github.com/sujoy124/AWS-projects/assets/91733661/f37439f4-4401-4baa-8c91-4a9194534600)
+
+- You will be presented with two pieces of information: Client ID, Client Secret. Note down the Client ID.Client Secret is not going to be used.
+- Once noted down safely, click OK
+![image](https://github.com/sujoy124/AWS-projects/assets/91733661/ccde28a0-3e8f-41b6-ab2a-0df4fabe4fed)
 
