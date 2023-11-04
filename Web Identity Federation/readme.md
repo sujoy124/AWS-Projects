@@ -1,4 +1,4 @@
-# Web Identity Federation
+# Web Identity Federation using AWS Cognito
 This is a simple serverless application which uses Web Identity Federation. Credit goes to **Adrian Cantrill**.
 
 The application uses the followings: 
