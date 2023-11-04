@@ -1,5 +1,5 @@
 ## Web Identity Federation
-This is a simple serverless application which uses Web Identity Federation. Credit goes to ##Adrian Cantrill.
+This is a simple serverless application which uses Web Identity Federation. Credit goes to ## Adrian Cantrill.
 
 The application uses the followings: 
 - S3 for front-end application hosting via CloudFront
@@ -20,7 +20,8 @@ Project setup/architecture is as follows:
 
 ![image](https://github.com/sujoy124/AWS-projects/assets/91733661/071e9056-1a4e-4324-9ef5-19158a8bedb1)
 
-###STAGE 1 : Provision the environment and review tasks
+
+### STAGE 1 : Provision the environment and review tasks
 
 Login to an AWS Account
 Region is set to us-east-1 N. Virginia
