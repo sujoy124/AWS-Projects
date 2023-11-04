@@ -1,5 +1,5 @@
-## Web Identity Federation
-This is a simple serverless application which uses Web Identity Federation. Credit goes to ## Adrian Cantrill.
+# Web Identity Federation
+This is a simple serverless application which uses Web Identity Federation. Credit goes to **Adrian Cantrill**.
 
 The application uses the followings: 
 - S3 for front-end application hosting via CloudFront
@@ -92,7 +92,7 @@ You will need a valid google login, GMAIL will do. If you don't have one, you wi
 - Expand View Details. This is going to create two IAM roles. One for Your authenticated identities and another for your Your unauthenticated identities. For now, we're just going to click on Allow we can review the roles later.
 - You will be presented with your Identity Pool ID, note this down, you will need it later. Click to move back to the dashboard
 - Move to the IAM Console. Click Roles. 
-- Locate and click on #### Cognito_PetIDFIDPoolAuth_Role
+- Locate and click on **Cognito_PetIDFIDPoolAuth_Role**
 - Click on Trust Relationships
 - See how this is assumable by cognito-identity.amazonaws.com
 - With two conditions
