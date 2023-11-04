@@ -18,4 +18,5 @@ This consists of 5 stages:-
 
 Project setup/architecture is as follows:
 
-![image](https://github.com/sujoy124/AWS-projects/assets/91733661/73f70b7d-940b-4c30-b3cd-15f3f442c25d)
+![image](https://github.com/sujoy124/AWS-projects/assets/91733661/071e9056-1a4e-4324-9ef5-19158a8bedb1)
+
