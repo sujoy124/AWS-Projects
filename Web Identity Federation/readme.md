@@ -32,3 +32,21 @@ Project setup/architecture is as follows:
 
 - Open the bucket starting webidf-appbucket
 - It should have objects within it, including index.html and scripts.js. examples are attached here.
+![image](https://github.com/sujoy124/AWS-projects/assets/91733661/2f71b17f-1bfb-46af-ad64-8d3badb04834)
+
+- Click the Permissions Tab. Verify Block all public access is set to Off
+- Click Bucket Policy. Verify there is a bucket policy
+![image](https://github.com/sujoy124/AWS-projects/assets/91733661/17fa6585-2bc1-4148-bed7-54ae44f61f34)
+
+- Open the bucket starting webidf-patchesprivatebucket-
+- Load the objects in the bucket so you are aware of the contents
+- Verify there is no bucket policy and the bucket is entirely private.
+![image](https://github.com/sujoy124/AWS-projects/assets/91733661/72d56eaf-85b2-466c-8cba-37577dedce88)
+![image](https://github.com/sujoy124/AWS-projects/assets/91733661/b4e20cd6-09a3-4a86-98e4-cf32f5899f1c)
+
+- Next open the CloudFront consle
+- Locate the distribution pointing at origin webidf-appbucket and click
+- Locate the distribution domain name. Note down as the WebApp URL this name prefixed with https i.e if yours is d1o4f0w1ew0exo.cloudfront.net then your WebApp URL is https://https://d1o4f0w1ew0exo.cloudfront.net (note, the copy icon may copy the https:// for you)
+![image](https://github.com/sujoy124/AWS-projects/assets/91733661/2cfe09b7-aa15-44e6-92a9-bf6af59e61f1)
+
+
