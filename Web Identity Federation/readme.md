@@ -15,3 +15,7 @@ This consists of 5 stages:-
 - STAGE 3 : Create Cognito Identity Pool
 - STAGE 4 : Update App Bucket & Test Application
 - STAGE 5 : Cleanup
+
+Project setup/architecture is as follows:
+
+![image](https://github.com/sujoy124/AWS-projects/assets/91733661/73f70b7d-940b-4c30-b3cd-15f3f442c25d)
